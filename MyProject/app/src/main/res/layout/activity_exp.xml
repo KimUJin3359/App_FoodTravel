@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D7E4BD"
+    tools:context=".ExpActivity">
+
+    <TextView
+        android:id="@+id/expTextView"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="67dp"
+        android:text="사용 방법"
+        android:fontFamily="@font/godofont"
+        android:textAlignment="center"
+        android:textColor="#020E3C"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="363dp"
+        android:layout_height="508dp"
+        android:fontFamily="@font/godofont"
+        android:text="'시작'버튼을 클릭시 각 지역의 지도가 표시됩니다.
+        \n각 지역을 클릭시 추천해주는 '여행지', '음식'을 볼 수 있고, 추천 결과에 따른 음식점을 표시합니다.
+        \n해당 음식점 명 클릭 시, 인터넷을 통해 음식점에 관한 정보를 볼 수 있습니다.
+        \n즐겨찾기 버튼 '☆' 클릭 시, 메인 화면에서 즐겨찾기 메뉴를 통해 빠르게 음식점을 보실 수 있습니다.
+        \n전화 버튼을 클릭하여, 해당 음식점이 등록한 번호로 전화를 할 수 있습니다.
+        \n\n코로나를 함꼐 이겨냈습니다.
+        \n열심히 여행 합시다 :)
+        \n\n\n\n\n\n\n제작자 : 201511251_김우진"
+        android:textColor="#020E3C"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/expTextView"
+        app:layout_constraintVertical_bias="0.294" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DaeguActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:background="#020E3C"
+        android:fontFamily="@font/godofont"
+        android:gravity="center"
+        android:text="대구 지도"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/daegu_map"
+            tools:layout_editor_absoluteY="67dp" />
+
+        <Button
+            android:id="@+id/dalseonggun"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="143dp"
+            android:layout_height="41dp"
+            android:background="#FFFFF2"
+            android:fontFamily="@font/godofont"
+            android:text="달성군"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/imageView3"
+            app:layout_constraintHorizontal_bias="0.343"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView3"
+            app:layout_constraintVertical_bias="0.65" />
+
+        <Button
+            android:id="@+id/buggu"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="67dp"
+            android:layout_height="40dp"
+            android:background="#FFFFF2"
+            android:fontFamily="@font/godofont"
+            android:text="북구"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+            app:layout_constraintEnd_toEndOf="@+id/imageView3"
+            app:layout_constraintHorizontal_bias="0.569"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView3"
+            app:layout_constraintVertical_bias="0.248" />
+
+        <Button
+            android:id="@+id/dalseogu"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="54dp"
+            android:layout_height="41dp"
+            android:background="#FFFFF2"
+            android:fontFamily="@font/godofont"
+            android:text="달서구"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.394"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView3"
+            app:layout_constraintVertical_bias="0.441" />
+
+        <Button
+            android:id="@+id/junggu"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="26dp"
+            android:layout_height="13dp"
+            android:background="#FFFFF2"
+            android:fontFamily="@font/godofont"
+            android:text="중구"
+            android:textColor="#000000"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.588"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView3"
+            app:layout_constraintVertical_bias="0.382" />
+
+        <Button
+            android:id="@+id/seogu"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="37dp"
+            android:layout_height="20dp"
+            android:background="#FFFFF2"
+            android:fontFamily="@font/godofont"
+            android:text="서구"
+            android:textColor="#000000"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView3"
+            app:layout_constraintVertical_bias="0.355" />
+
+        <Button
+            android:id="@+id/namgu"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="24dp"
+            android:layout_height="30dp"
+            android:background="#FFFFF2"
+            android:fontFamily="@font/godofont"
+            android:text="남구"
+            android:textColor="#000000"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.571"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView3"
+            app:layout_constraintVertical_bias="0.444" />
+
+        <Button
+            android:id="@+id/donggu"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFFFF2"
+            android:fontFamily="@font/godofont"
+            android:text="동구"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.882"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView3"
+            app:layout_constraintVertical_bias="0.214" />
+
+        <Button
+            android:id="@+id/suseonggu"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="63dp"
+            android:layout_height="39dp"
+            android:background="#FFFFF2"
+            android:fontFamily="@font/godofont"
+            android:text="수성구"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.785"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView3"
+            app:layout_constraintVertical_bias="0.472" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

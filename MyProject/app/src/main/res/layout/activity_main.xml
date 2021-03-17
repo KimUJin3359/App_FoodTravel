@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="#020E3C"
+        android:fontFamily="@font/godofont"
+        android:gravity="center"
+        android:text="경상북도 지도"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/map"
+            tools:layout_editor_absoluteY="44dp" />
+
+        <Button
+            android:id="@+id/bonghwa"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="52dp"
+            android:layout_height="37dp"
+            android:background="#FEFEE9"
+            android:fontFamily="@font/godofont"
+            android:text="봉화군"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.163" />
+
+        <Button
+            android:id="@+id/kimcheon"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:background="#FEFEE9"
+            android:fontFamily="@font/godofont"
+            android:text="김천시"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.11"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView2"
+            app:layout_constraintVertical_bias="0.635" />
+
+        <Button
+            android:id="@+id/uljin"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="44dp"
+            android:layout_height="31dp"
+            android:background="#FEFEE9"
+            android:fontFamily="@font/godofont"
+            android:text="울진군"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.701"
+            app:layout_constraintStart_toStartOf="@+id/imageView2"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.14" />
+
+        <Button
+            android:id="@+id/daegu"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="43dp"
+            android:layout_height="24dp"
+            android:background="#EFEFEF"
+            android:fontFamily="@font/godofont"
+            android:text="대구시"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/imageView2"
+            app:layout_constraintHorizontal_bias="0.364"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.782" />
+
+        <Button
+            android:id="@+id/youngduck"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="41dp"
+            android:layout_height="20dp"
+            android:background="#FEFEE9"
+            android:fontFamily="@font/godofont"
+            android:text="영덕군"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+            app:layout_constraintEnd_toEndOf="@+id/imageView2"
+            app:layout_constraintHorizontal_bias="0.737"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView2"
+            app:layout_constraintVertical_bias="0.432" />
+
+        <Button
+            android:id="@+id/pohang"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="43dp"
+            android:layout_height="26dp"
+            android:background="#FEFEE9"
+            android:fontFamily="@font/godofont"
+            android:text="포항시"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.695"
+            app:layout_constraintStart_toStartOf="@+id/imageView2"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.608" />
+
+        <Button
+            android:id="@+id/seongju"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="43dp"
+            android:layout_height="30dp"
+            android:background="#FEFEE9"
+            android:fontFamily="@font/godofont"
+            android:text="성주군"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.157"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView2"
+            app:layout_constraintVertical_bias="0.764" />
+
+        <Button
+            android:id="@+id/youngyang"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="41dp"
+            android:layout_height="26dp"
+            android:background="#FEFEE9"
+            android:fontFamily="@font/godofont"
+            android:text="영양군"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/imageView2"
+            app:layout_constraintHorizontal_bias="0.627"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.29" />
+
+        <Button
+            android:id="@+id/gumi"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="39dp"
+            android:layout_height="24dp"
+            android:background="#FEFEE9"
+            android:fontFamily="@font/godofont"
+            android:text="구미시"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/imageView2"
+            app:layout_constraintHorizontal_bias="0.263"
+            app:layout_constraintStart_toStartOf="@+id/imageView2"
+            app:layout_constraintTop_toTopOf="@+id/imageView2"
+            app:layout_constraintVertical_bias="0.609" />
+
+        <Button
+            android:id="@+id/chilgok"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="40dp"
+            android:layout_height="26dp"
+            android:background="#FEFEE9"
+            android:fontFamily="@font/godofont"
+            android:text="칠곡군"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.296"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.698" />
+
+        <Button
+            android:id="@+id/gunwi"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="40dp"
+            android:layout_height="27dp"
+            android:background="#FEFEE9"
+            android:fontFamily="@font/godofont"
+            android:text="군위군"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.407"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.621" />
+
+        <Button
+            android:id="@+id/cheongsong"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="39dp"
+            android:layout_height="32dp"
+            android:background="#FEFEE9"
+            android:fontFamily="@font/godofont"
+            android:text="청송군"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.604"
+            app:layout_constraintStart_toStartOf="@+id/imageView2"
+            app:layout_constraintTop_toTopOf="@+id/imageView2"
+            app:layout_constraintVertical_bias="0.505" />
+
+        <Button
+            android:id="@+id/cheongdo"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="51dp"
+            android:layout_height="26dp"
+            android:background="#FEFEE9"
+            android:fontFamily="@font/godofont"
+            android:text="청도군"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/imageView2"
+            app:layout_constraintHorizontal_bias="0.419"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView2"
+            app:layout_constraintVertical_bias="0.909" />
+
+        <Button
+            android:id="@+id/gyeongsan"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="39dp"
+            android:layout_height="17dp"
+            android:background="#FEFEE9"
+            android:fontFamily="@font/godofont"
+            android:text="경산시"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/imageView2"
+            app:layout_constraintHorizontal_bias="0.475"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.813" />
+
+        <Button
+            android:id="@+id/andong"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="58dp"
+            android:layout_height="34dp"
+            android:background="#FEFEE9"
+            android:fontFamily="@font/godofont"
+            android:text="안동시"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/imageView2"
+            app:layout_constraintHorizontal_bias="0.447"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.374" />
+
+        <Button
+            android:id="@+id/goryeong"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="40dp"
+            android:layout_height="24dp"
+            android:background="#FEFEE9"
+            android:fontFamily="@font/godofont"
+            android:text="고령군"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/imageView2"
+            app:layout_constraintHorizontal_bias="0.204"
+            app:layout_constraintStart_toStartOf="@+id/imageView2"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.849" />
+
+        <Button
+            android:id="@+id/yecheon"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="39dp"
+            android:layout_height="23dp"
+            android:background="#FEFEE9"
+            android:fontFamily="@font/godofont"
+            android:text="예천군"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/imageView2"
+            app:layout_constraintHorizontal_bias="0.301"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView2"
+            app:layout_constraintVertical_bias="0.309" />
+
+        <Button
+            android:id="@+id/munkyeong"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:background="#FEFEE9"
+            android:fontFamily="@font/godofont"
+            android:text="문경시"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/imageView2"
+            app:layout_constraintHorizontal_bias="0.156"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView2"
+            app:layout_constraintVertical_bias="0.285" />
+
+        <Button
+            android:id="@+id/eiseong"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="46dp"
+            android:layout_height="38dp"
+            android:background="#FEFEE9"
+            android:fontFamily="@font/godofont"
+            android:text="의성군"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/imageView2"
+            app:layout_constraintHorizontal_bias="0.397"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView2"
+            app:layout_constraintVertical_bias="0.499" />
+
+        <Button
+            android:id="@+id/youngju"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="38dp"
+            android:layout_height="26dp"
+            android:background="#FEFEE9"
+            android:fontFamily="@font/godofont"
+            android:text="영주시"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/imageView2"
+            app:layout_constraintHorizontal_bias="0.372"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.23" />
+
+        <Button
+            android:id="@+id/sangju"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="43dp"
+            android:layout_height="34dp"
+            android:background="#FEFEE9"
+            android:fontFamily="@font/godofont"
+            android:text="상주시"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+            app:layout_constraintEnd_toEndOf="@+id/imageView2"
+            app:layout_constraintHorizontal_bias="0.089"
+            app:layout_constraintStart_toStartOf="@+id/imageView2"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.453" />
+
+        <Button
+            android:id="@+id/youngcheon"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="44dp"
+            android:layout_height="30dp"
+            android:background="#FEFEE9"
+            android:fontFamily="@font/godofont"
+            android:text="영천시"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.542"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.682" />
+
+        <Button
+            android:id="@+id/gyeongju"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="53dp"
+            android:layout_height="30dp"
+            android:background="#FEFEE9"
+            android:fontFamily="@font/godofont"
+            android:text="경주시"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+            app:layout_constraintEnd_toEndOf="@+id/imageView2"
+            app:layout_constraintHorizontal_bias="0.687"
+            app:layout_constraintStart_toStartOf="@+id/imageView2"
+            app:layout_constraintTop_toTopOf="@+id/imageView2"
+            app:layout_constraintVertical_bias="0.811" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>

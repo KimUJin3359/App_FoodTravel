@@ -15,7 +15,7 @@
 - [APK](https://github.com/KimUJin3359/App_FoodTravel/blob/master/app-release.apk)
 
 ### 프로젝트 개요
-#### 애플리케이션의 필요성
+### 애플리케이션의 필요성
 
 - 코로나 바이러스로 인한 음식점 영업환경 악화
 ![필요성(1)](https://user-images.githubusercontent.com/50474972/111481999-d71fac80-8776-11eb-8d3c-049ad3723c77.PNG)
@@ -27,7 +27,7 @@
 ![필요성(3)](https://user-images.githubusercontent.com/50474972/111482011-d8e97000-8776-11eb-97bb-b2d73a7b6588.PNG)
 
 
-#### 기능
+### 기능
 ![기능(2)](https://user-images.githubusercontent.com/50474972/111482032-dd158d80-8776-11eb-8a31-4f0771158a5e.PNG)
 ![기능(3)](https://user-images.githubusercontent.com/50474972/111482035-ddae2400-8776-11eb-982b-99b4860e7317.PNG)
 ![기능(4)](https://user-images.githubusercontent.com/50474972/111482036-de46ba80-8776-11eb-8f2d-6130e24e0089.PNG)

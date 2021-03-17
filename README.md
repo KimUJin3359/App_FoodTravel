@@ -30,5 +30,9 @@
 | ![기능(4)](https://user-images.githubusercontent.com/50474972/111482036-de46ba80-8776-11eb-8f2d-6130e24e0089.PNG) | ![기능(5)](https://user-images.githubusercontent.com/50474972/111482038-de46ba80-8776-11eb-8d7c-47789a250827.PNG) |
 | ![기능(6)](https://user-images.githubusercontent.com/50474972/111482039-dedf5100-8776-11eb-9866-76de5f7c2b9a.PNG) |
 
+#### 자세한 사항은 [최종보고서](https://github.com/KimUJin3359/App_FoodTravel/blob/master/%5B%EC%B5%9C%EC%A2%85%EB%B3%B4%EA%B3%A0%EC%84%9C%5D_%EC%8B%9D%EB%8F%84%EB%9D%BD%EC%97%AC%ED%96%89.pdf) 참고
+- 소스 코드 설명 p.5 ~ p.7
+- 실행 화면 p.8 ~ p.11 
+
 
 

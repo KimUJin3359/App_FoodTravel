@@ -15,17 +15,20 @@
 - [APK](https://github.com/KimUJin3359/App_FoodTravel/blob/master/app-release.apk)
 
 ### 프로젝트 개요
-### 애플리케이션의 필요성
+#### 애플리케이션의 필요성
 
 | 코로나 바이러스로 인한 음식점 재정 악화 | 포스트 코로나시대 여행에 대한 수요 증가 | 전통 향토음식을 알리기 위해 |
 | --- | --- | --- |
 | ![필요성(1)](https://user-images.githubusercontent.com/50474972/111481999-d71fac80-8776-11eb-8d3c-049ad3723c77.PNG) | ![필요성(2)](https://user-images.githubusercontent.com/50474972/111482008-d8e97000-8776-11eb-902a-212b24d2b3b5.PNG) | ![필요성(3)](https://user-images.githubusercontent.com/50474972/111482011-d8e97000-8776-11eb-97bb-b2d73a7b6588.PNG) |
 
 
-### 기능
+#### 기능
+
 | 기능 | 이미지 |
 | --- | --- |
 | ![기능(2)](https://user-images.githubusercontent.com/50474972/111482032-dd158d80-8776-11eb-8a31-4f0771158a5e.PNG) | ![기능(3)](https://user-images.githubusercontent.com/50474972/111482035-ddae2400-8776-11eb-982b-99b4860e7317.PNG) |
 | ![기능(4)](https://user-images.githubusercontent.com/50474972/111482036-de46ba80-8776-11eb-8f2d-6130e24e0089.PNG) | ![기능(5)](https://user-images.githubusercontent.com/50474972/111482038-de46ba80-8776-11eb-8d7c-47789a250827.PNG) |
 | ![기능(6)](https://user-images.githubusercontent.com/50474972/111482039-dedf5100-8776-11eb-9866-76de5f7c2b9a.PNG) |
+
+
 
